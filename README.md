@@ -14,6 +14,8 @@ Die Client-ID muss bei allen GET-requests als Header-Feld 'X-API-Key' übergeben
 
 ## Berufsbezogene Informationen
 
+Die Abfrage berufsbezogener Informationen erfolgt bei NewPlan über eine Serie von GET-requests:
+
 **URL:** https://rest.arbeitsagentur.de/infosysbub/dkz-rest/pc/v1/berufe/{BerufenetID}/
 
 Mithilfe der BerufenetID (z.B. 129987, vgl. [BERUFENET-API](https://github.com/AndreasFischer1985/berufenet-api)) lassen sich Basisinformationen zu Berufen abfragen, insb. der zugehörige KldbCode (z.B. B%2043104). Mit dem kldB-Code kann in einem zweiten Schritt die DkzId angefragt werden, welche für die finale Abfrage benötigt wird.
