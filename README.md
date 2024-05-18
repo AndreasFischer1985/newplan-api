@@ -1,4 +1,4 @@
-# Arbeitsagentur NewSkills API 
+# Arbeitsagentur NewPlan-API 
 Die Bundesagentur für Arbeit hat nein Angebot für Personen erstellt, die sich beruflich umorientieren möchten: "New Plan - Kenne dein Können" für die Suche nach "Inspiration".
 
 Konket heißt es auf der Website von [New Plan](https://www.arbeitsagentur.de/k/newplan): 
