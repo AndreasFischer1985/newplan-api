@@ -28,10 +28,11 @@ Mithilfe des KldbCode (z.B. B%2043104) lassen sich weitere Informationen zum ang
 
 Mithilfe von DkzId und BerufenetId lassen sich schließlich die Kernergebnisse von NewPlan abfragen, namentlich nahe und ferne Berufe zur angegebenen BerufenetId, jeweils mit dem Anteil der diesbezüglichen Jobwechsel.
 
-Darüber hinauslassen sich über folgende Entpunkte weitere Daten über DkzId und BerufenetId abfragen (mehrere kommaseparierte Angaben möglich):
+Darüber hinauslassen sich über folgende Entpunkte weitere Daten (teils aus Basis von DkzId und BerufenetId) abfragen (mehrere kommaseparierte Angaben möglich):
 * Berufsvorschläge unter https://rest.arbeitsagentur.de/sete/suggest/pc/v1/inspiration/berufe?berufsgattungDkzIds={DkzId}
 * Mediangehalt unter https://rest.arbeitsagentur.de/infosysbub/entgeltatlas/pc/v1/mediandaten?dkzIds={BerufenetId}
-
+* Kompetenzen zum Beruf: https://rest.arbeitsagentur.de/infosysbub/dkz-rest/pc/v1/berufe/{DkzId}/kompetenzen
+  * vgl. Kompetenzen: https://rest.arbeitsagentur.de/infosysbub/dkz-rest/pc/v1/kompetenzen
 
 ### Beispiel:
 
