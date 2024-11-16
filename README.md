@@ -8,7 +8,7 @@ Konket heißt es auf der Website von [New Plan](https://www.arbeitsagentur.de/k/
 
 Eine Authentifizierung erfolgt über die client_id, die als Parameter
 
-**cliend_id:** 7679c728-db18-43ce-beb8-52a9d571d419
+**cliend_id:** sete-inspirieren
 
 Die Client-ID muss bei allen GET-requests als Header-Feld 'X-API-Key' übergeben werden.
 
@@ -38,15 +38,15 @@ Darüber hinauslassen sich über folgende Entpunkte weitere Daten (teils aus Bas
 
 ```bash
 info1=$(curl -m 60 \
--H "X-API-Key:7679c728-db18-43ce-beb8-52a9d571d419" \
+-H "X-API-Key:sete-inspirieren" \
 'https://rest.arbeitsagentur.de/infosysbub/dkz-rest/pc/v1/berufe/129987/')
 
 info2=$(curl -m 60 \
--H "X-API-Key:7679c728-db18-43ce-beb8-52a9d571d419" \
+-H "X-API-Key:sete-inspirieren" \
 'https://rest.arbeitsagentur.de/infosysbub/dkz-rest/pc/v1//kldb2010?codenr=B%2043104')
 
 info3=$(curl -m 60 \
--H "X-API-Key:7679c728-db18-43ce-beb8-52a9d571d419" \
+-H "X-API-Key:sete-inspirieren" \
 'https://rest.arbeitsagentur.de/sete/suggest/pc/v1/inspiration/gattungen/91527?ausgangsberufDkzId=129987')
 ```
 
